@@ -31,6 +31,7 @@ console.log(makeTransaction(10, 500, 5000)); // "You ordered 10 droids worth 500
 Виклик makeTransaction(10, 5000, 8000) повертає "Insufficient funds!"
 Виклик makeTransaction(8, 2000, 10000) повертає "Insufficient funds!"
 Виклик makeTransaction(10, 500, 5000) повертає "You ordered 10 droids worth 5000 credits!"
+
 Задача 2. Форматування повідомлення
 Оголоси функцію formatMessage(message, maxLength), яка приймає рядок (параметр message) та перевіряє його довжину відповідно до заданої максимальної довжини (параметр maxLength).
 
@@ -57,6 +58,7 @@ console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); // 
 Виклик функції formatMessage("Vestibulum facilisis purus nec", 30) повертає "Vestibulum facilisis purus nec"
 Виклик функції formatMessage("Nunc sed turpis a felis in nunc fringilla", 15) повертає "Nunc sed turpis..."
 Виклик функції formatMessage("Nunc sed turpis a felis in nunc fringilla", 41) повертає "Nunc sed turpis a felis in nunc fringilla"
+
 Задача 3. Перевірка спаму
 Функція checkForSpam(message) приймає рядок (параметр message), перевіряє його на вміст заборонених слів spam і sale, і повертає результат перевірки. Слова в рядку параметра message можуть бути в довільному регістрі, наприклад SPAM або sAlE.
 
@@ -85,6 +87,7 @@ console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 Виклик функції checkForSpam("Trust me, this is not a spam message") повертає true
 Виклик функції checkForSpam("Get rid of sPaM emails. Our book in on sale!") повертає true
 Виклик функції checkForSpam("[SPAM] How to earn fast money?") повертає true
+
 Задача 4. Доставка товару
 Оголоси функцію getShippingCost(country), яка повинна перевіряти можливість доставки товару в країну користувача (параметр country) і повертати повідомлення про результат. Обов'язково використовуй інструкцію switch.
 
