@@ -1,7 +1,12 @@
 function checkForSpam(message) {
     const messageLowercase = message.toLowerCase();
-    return checkForSpam = messageLowercase.includes("spam") || messageLowercase.includes("sale") ? true : false
-}
+    if (messageLowercase.includes("spam") || messageLowercase.includes("sale")) {
+        true;
+    } else {
+        false;
+    }
+    } 
+
 
 
 
